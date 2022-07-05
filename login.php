@@ -30,8 +30,8 @@
             		if ($_GET['error'] == "emptyfields" ) {
             			echo "<label class='text-red-700 dark:text-red-200'>EMPTY FIELDS</label>";
             		}
-            		else if ($_GET['error'] == "passwordwrong" ) {
-            			echo "<label class='text-red-700 dark:text-red-200'>password_not_match</label>";
+            		else if ($_GET['error'] == "wrongpassword" ) {
+            			echo "<label class='text-red-700 dark:text-red-200'>Incorrect Password</label>";
             		}
             	}
 
@@ -41,7 +41,7 @@
             </div>
 
             <div class="flex justify-end mt-6">
-                <input type="submit" name="submit" class=" px-6 py-2 leading-5 text-white transition-colors duration-200 transform bg-gray-700 rounded-md hover:bg-gradient-to-r from-green-500 to-blue-500 focus:outline-none focus:bg-gray-600"></input>
+                <input type="submit" name="login" class=" px-6 py-2 leading-5 text-white transition-colors duration-200 transform bg-gray-700 rounded-md hover:bg-gradient-to-r from-green-500 to-blue-500 focus:outline-none focus:bg-gray-600"></input>
             </div>
         </form>
     </section>
